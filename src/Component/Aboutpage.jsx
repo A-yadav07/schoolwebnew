@@ -330,7 +330,7 @@ const AboutPage = () => {
               {testimonials.map((_, index) => (
                 <button
                   key={index}
-                  onClick={() => setActiveTestimonial(index)}
+                  onClick={()jnk => setActiveTestimonial(index)}
                   className={`w-3 h-3 rounded-full ${
                     index === activeTestimonial ? "bg-blue-600" : "bg-gray-300"
                   } cursor-pointer rounded-full`}

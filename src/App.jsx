@@ -12,11 +12,10 @@ import Layout from "./layout/Layout.jsx";
 import Dashboard from "./adminpage/components/Dashboard.jsx";
 import Index from "./layout/Index.jsx";
 import ContactPage from "./Component/Contact.jsx";
-import AboutPage from "./component/Aboutpage.jsx";
 import BlogPosts from "./Component/Blogpage/Blog_home_page.jsx";
 import AllBlogPosts from "./Component/Blogpage/All_Blog_page.jsx";
 import AdminLayout from "./adminpage/Adminlayout/AdminLayout.jsx";
-
+import AboutPage from "./Component/Aboutpage.jsx"
 function App() {
   return (
     <BrowserRouter>
