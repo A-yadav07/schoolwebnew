@@ -1,9 +1,9 @@
 import React from "react";
 import Home from "../pages/Home";
-import ContactPage from "../Component/Contact.jsx";
-import Posibility from "../component/Posibility.jsx";
+import ContactPage from "../component/Contact.jsx";
 import Faq from "../component/Faq.jsx";
-import SaasAbleBlocksPage from "../Component/Gallary.jsx"
+import SaasAbleBlocksPage from "../component/Gallary.jsx"
+import EndlessPossibilities from "../component/Posibility.jsx"
 function Index() {
   return (
     <>
@@ -13,7 +13,7 @@ function Index() {
        {/* <AboutPag /> */}
        <SaasAbleBlocksPage/>
       // <Comperhensive/>
-      <Posibility/>
+      <EndlessPossibilities/>
       {/* <PowerfulAdminInterface/> */}
       {/* <SaasAbleFigma/> */}
       <ContactPage />
