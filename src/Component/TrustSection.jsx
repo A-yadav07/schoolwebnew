@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";  // Ensure you import Link from react-router-dom
+import { Link } from "react-router-dom";
 import {
   BadgeCheck,
   CheckCircle,
@@ -9,7 +9,7 @@ import {
 
 const trustPoints = [
   { icon: <BadgeCheck size={20} />, text: "10+ Years Expertise" },
-  { icon: <CheckCircle size={20} />, text: "Excellent Academic Curriculum " },
+  { icon: <CheckCircle size={20} />, text: "Excellent Academic Curriculum" },
   { icon: <BadgeCheck size={20} />, text: "Experienced and Caring Teachers" },
   { icon: <CheckCircle size={20} />, text: "State-of-the-Art Facilities" },
   { icon: <RefreshCcw size={20} />, text: "Regular Updates Provided" },
@@ -18,7 +18,7 @@ const trustPoints = [
 
 const TrustSection = () => {
   return (
-    <section className="bg-[#f3f6fb] rounded-[2rem] p-8 md:p-16 max-w-6xl mx-auto mt-16">
+    <section className="bg-[#f3f6fb] rounded-3xl p-8 md:p-16 max-w-6xl mx-auto mt-16">
       {/* Top Avatar + Rating */}
       <div className="flex items-center gap-4 mb-4">
         <div className="flex -space-x-3">
@@ -32,9 +32,7 @@ const TrustSection = () => {
           ))}
         </div>
         <div>
-          <p className="text-sm text-gray-700 font-medium">
-            250+ Reviews 
-          </p>
+          <p className="text-sm text-gray-700 font-medium">250+ Reviews</p>
           <div className="w-14 h-2 bg-[url('data:image/svg+xml;utf8,<svg width=100 height=6 viewBox=0 0 100 6 fill=none xmlns=http://www.w3.org/2000/svg><path d=M1 5 Q2.5 1 5 5 T9 5 T13 5 T17 5 T21 5 T25 5 T29 5 T33 5 T37 5 T41 5 T45 5 T49 5 T53 5 T57 5 T61 5 T65 5 T69 5 T73 5 T77 5 T81 5 T85 5 T89 5 T93 5 T97 5 T101 5 stroke=%2300AEEF stroke-width=1 fill=none /></svg>')] bg-no-repeat bg-left-top mt-1" />
         </div>
       </div>
@@ -44,7 +42,7 @@ const TrustSection = () => {
         Trusted by Our Students
       </h2>
 
-      {/* Features */}
+      {/* Trust Points */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12 text-gray-800 text-sm font-medium">
         {trustPoints.map((point, idx) => (
           <div key={idx} className="flex items-center gap-2">
@@ -78,7 +76,6 @@ const TrustSection = () => {
           </svg>
         </div>
 
-        {/* Review Button with Link */}
         <Link to="/testimonial">
           <button className="bg-[#005b96] hover:bg-[#00487c] transition-colors text-white text-sm px-6 py-3 rounded-full font-medium">
             Review
