@@ -1,9 +1,10 @@
 import React from "react";
 import Home from "../pages/Home";
-import ContactPage from "../component/Contact.jsx";
 import Faq from "../component/Faq.jsx";
 import SaasAbleBlocksPage from "../component/Gallary.jsx"
 import EndlessPossibilities from "../component/Posibility.jsx"
+import ContactPage from "../component/ContactPage.jsx";
+
 function Index() {
   return (
     <>
@@ -16,7 +17,7 @@ function Index() {
       <EndlessPossibilities/>
       {/* <PowerfulAdminInterface/> */}
       {/* <SaasAbleFigma/> */}
-      <ContactPage />
+      <ContactPage/>
       <Faq />
 
     </>
