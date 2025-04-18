@@ -2,7 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import Home from "./pages/Home.jsx";
 import About from "./component/Aboutpage.jsx";
-import AdminLayout from "./component/layout/AdminLayout.jsx"; // ✅ AdminLayout added
+import AdminLayout from "../adminpage/Adminlayout/AdminLayout.jsx";
+// import AdminLayout from "./component/layout/AdminLayout.jsx"; // ✅ AdminLayout added
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         </Route>
 
         {/* Admin Layout route */}
-        <Route path="/admin" element={<AdminLayout />} />
+        {/* <Route path="/admin" element={<AdminLayout />} /> */}
 
       </Routes>
     </Router>

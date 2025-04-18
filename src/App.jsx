@@ -15,22 +15,23 @@ import ContactPage from "./Component/Contact.jsx";
 import BlogPosts from "./Component/Blogpage/Blog_home_page.jsx";
 import AllBlogPosts from "./Component/Blogpage/All_Blog_page.jsx";
 // import AdminLayout from "./adminpage/Adminlayout/AdminLayout.jsx";
-import AboutPage from "./Component/Aboutpage.jsx"
+// import AboutPage from "./Component/Aboutpage.jsx"
 function App() {
   return (
     <BrowserRouter>
   
       <Routes>
         {/* Public Routes */}
+        <Route path="/" element={<Layout />}>
         <Route path="/courses/1" element={<Course1 />} />
         <Route path="/courses/2" element={<Course2 />} />
         <Route path="/courses/3" element={<Course3 />} />
         <Route path="/testimonial" element={<Testimonial/>} />
         <Route path="/navgallary" element={<Navgallary/>} /> 
         <Route path="teacher" element={<Teacher/>} />
-        <Route path="/" element={<Layout />}>
+       
         <Route index element={<Index />} />
-        <Route path="/about" element={<AboutPage />} />
+        {/* <Route path="/about" element={<AboutPage />} /> */}
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/blog" element={<BlogPosts />} />
         <Route path="/allblog" element={<AllBlogPosts />} />

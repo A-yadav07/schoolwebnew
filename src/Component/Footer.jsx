@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-white text-gray-700 px-22 py-15">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-        {/* Column 1 */}
+        {/* Column 1*/}
         <div>
           <div className="flex items-center gap-2">
                     <img className="w-10 h-10 object-cover rounded-fulls" src={logo} alt="logo.jpg" />
