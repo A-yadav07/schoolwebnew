@@ -35,7 +35,7 @@ export default function Navbar() {
   return (
     <nav className="bg-white px-4 py-3 shadow-sm">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        {/* Logo */}
+        {/*  */}
         <div className="flex items-center gap-2">
           <img className="w-10 h-10 object-cover rounded-full" src={logo} alt="logo.jpg" />
           <span className="text-2xl font-bold text-[#005B96]">BaBa B.K</span>
