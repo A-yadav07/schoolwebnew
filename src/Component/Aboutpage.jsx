@@ -43,6 +43,7 @@ const AboutPage = () => {
             formatter: "{value}%",
           },
         },
+        ////hello////
         series: [
           {
             name: "Pass Rate",
