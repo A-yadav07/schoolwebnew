@@ -1,3 +1,7 @@
+/////////
+
+
+
 export default function Course1() {
     return (
       <div className="p-8 max-w-5xl mx-auto">

@@ -69,7 +69,7 @@ const tabContent = [
   },
 ];
 
-const PowerfulAdminInterface = () => {
+const AdminInterface = () => {
   const [activeTab, setActiveTab] = useState("material");
 
   const content = tabContent.find((tab) => tab.key === activeTab);
@@ -164,4 +164,4 @@ const PowerfulAdminInterface = () => {
   );
 };
 
-export default PowerfulAdminInterface;
+export default AdminInterface;
