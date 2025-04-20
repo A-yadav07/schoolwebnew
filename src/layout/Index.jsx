@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "../pages/Home";
-import FAQSection from "../component/FAQSection.jsx";
+// import FAQSection from "../component/FAQSection.jsx";
 import SaasAbleBlocksPage from "../component/Gallary.jsx";
 import EndlessPossibilities from "../component/Posibility.jsx";
 import AdminInterface from "../component/AdminInterface.jsx";
@@ -21,7 +21,7 @@ function Index() {
        <AdminInterface/> 
       
       <ContactPage/>
-      <FAQSection />
+      {/* <FAQSection /> */}
 
     </>
   );
