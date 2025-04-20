@@ -11,7 +11,7 @@ import Index from "./layout/Index.jsx";
 import ContactPage from "./Component/Contact.jsx";
 import BlogPosts from "./Component/Blogpage/Blog_home_page.jsx";
 import AllBlogPosts from "./Component/Blogpage/All_Blog_page.jsx";
-import AboutPage from "./component/Aboutpage.jsx";
+// import AboutPage from "./component/Aboutpage.jsx";
 function App() {
   return (
 
@@ -27,7 +27,7 @@ function App() {
         <Route path="teacher" element={<Teacher/>} />
        
         <Route index element={<Index />} />
-         <Route path="/about" element={<AboutPage />} /> 
+         {/* <Route path="/about" element={<AboutPage />} />  */}
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/blog" element={<BlogPosts />} />
         <Route path="/allblog" element={<AllBlogPosts />} />
